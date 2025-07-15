@@ -11,10 +11,9 @@ font-family: "Lato", sans-serif;
 }
 .nav-box{
     width:701px;
-
 }
 nav > img{
-    width: 628px;;
+    width: 628px;
 }
 nav>div>h1{
     color: rgb(39, 39, 39);
@@ -146,7 +145,6 @@ margin-top:100PX;
 }
 .offer-img{
     width: 318px;
-    height: 420px;
 }
 .off{
     color:red;
@@ -244,4 +242,99 @@ margin-top:100PX;
     letter-spacing: 0%;
     text-align: center;
     margin-top:0;
+}
+
+/* tamp-class */
+
+.gayeb{
+    display:none;
+}
+
+/* mobile-screen */
+
+@media screen and (max-width:576px) {
+    .nav-style{
+        flex-direction:column;
+        gap:20px;
+    }
+    
+    nav > img{
+        width:70%;
+    }
+    .nav-box{
+    width:auto;
+    }
+    nav>div>h1{
+        color: rgb(39, 39, 39);
+        font-size: 75px;
+        font-weight: 600;
+        line-height: 80px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom:32px;
+    }
+/* flower-section */
+    .flower-box,.round-img-contenar{
+        flex-direction: column;
+        gap:70px;
+    }
+/* logo-section */
+    .logo-section{
+        width: 576px;
+        height: 200px;
+    }
+    .logo{
+        width:50px;
+        height:60.5PX;
+    }
+    .logo-text{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    /* offer-section */
+    .section-3{
+        height:480px;
+        gap:50px;
+        margin-top: 100px;
+    }
+    .offer-box{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .offer-img{
+        width: 200px;
+    }
+/* 4-img-section */
+    .img-4-text-box{
+        width:576px;
+    }
+    .img-4-box{
+        display:grid;
+        grid-template-columns:repeat(2,2fr);
+        gap:15px;
+        margin-top:10px;
+    }
+    .section-4 div img{
+        width:99%;
+    }
+/* submit-section */
+    .section-5{
+        height: 300px;
+        width:576px;
+        margin:200px auto;
+    }
+    .submit-text-box{
+        border-radius: 8px;
+        width: 350px;
+        height: 56px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+/* footer-section */
+    .footer-pera{
+        width:500px;
+    }
 }
