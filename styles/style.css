@@ -2,6 +2,9 @@
 .lato-thin {
 font-family: "Lato", sans-serif;
 }
+.marjin-0{
+    margin:0;
+}
 .nav-style{
     display:flex;
     background: rgba(229, 84, 115, 0.1);
@@ -256,6 +259,7 @@ margin-top:100PX;
     .nav-style{
         flex-direction:column;
         gap:20px;
+        padding:20px;
     }
     
     nav > img{
@@ -280,7 +284,7 @@ margin-top:100PX;
     }
 /* logo-section */
     .logo-section{
-        width: 576px;
+        width: auto;
         height: 200px;
     }
     .logo{
@@ -304,11 +308,11 @@ margin-top:100PX;
         text-align: center;
     }
     .offer-img{
-        width: 200px;
+        width: 150px;
     }
 /* 4-img-section */
     .img-4-text-box{
-        width:576px;
+        width:auto;
     }
     .img-4-box{
         display:grid;
@@ -322,12 +326,12 @@ margin-top:100PX;
 /* submit-section */
     .section-5{
         height: 300px;
-        width:576px;
+        width:auto;
         margin:200px auto;
     }
     .submit-text-box{
         border-radius: 8px;
-        width: 350px;
+        width: auto;
         height: 56px;
         font-size: 16px;
         font-weight: 400;
@@ -335,6 +339,7 @@ margin-top:100PX;
     }
 /* footer-section */
     .footer-pera{
-        width:500px;
+        width:auto;
+        padding:30px;
     }
 }
